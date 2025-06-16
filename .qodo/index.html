@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolulope - Creative Professional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Tolulope</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#portfolio" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Tolulope</h1>
+            <p class="subtitle">Frontend Developer & Creative Designer</p>
+            <p class="hero-description">I create beautiful and functional web experiences using HTML, CSS, and JavaScript</p>
+            <a href="#portfolio" class="cta-button">View My Work <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="Images/Profile.jpg" alt="Tolulope">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Frontend Developer & Problem Solver</h3>
+                    <p>I'm a passionate beginner developer who loves creating interactive web experiences. My journey started with curiosity about how websites work, and now I'm building my own projects using HTML, CSS, and JavaScript.</p>
+                    <p>I enjoy turning ideas into reality through code, focusing on clean design and smooth user interactions. Every project is an opportunity to learn something new and push my skills further.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <i class="fas fa-code"></i>
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-laptop-code"></i>
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Languages Mastered</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-clock"></i>
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Year Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Here are some projects I've built while learning web development</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="html-css">HTML & CSS</button>
+                <button class="filter-btn" data-filter="javascript">JavaScript</button>
+                <button class="filter-btn" data-filter="responsive">Responsive</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card" data-category="html-css">
+                    <div class="card-image">
+                        <img src="Images/4-in-1 Features Desktop Screen - Design Freebies.jpeg" alt="Personal Landing Page">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="project-category">HTML & CSS</div>
+                        <h3>Personal Landing Page</h3>
+                        <p>A clean and modern landing page built with HTML and CSS, featuring smooth animations and responsive design.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Flexbox</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card" data-category="javascript">
+                    <div class="card-image">
+                        <img src="Images/Do it - To Do List App.jpeg" alt="Todo List App">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="project-category">JavaScript</div>
+                        <h3>Interactive Todo List</h3>
+                        <p>A fully functional todo list application with add, delete, and mark complete features using vanilla JavaScript.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card" data-category="javascript">
+                    <div class="card-image">
+                        <img src="Images/Calculator App design.jpeg" alt="Calculator App">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="project-category">JavaScript</div>
+                        <h3>Calculator App</h3>
+                        <p>A sleek calculator with basic arithmetic operations, built with JavaScript and featuring a modern UI design.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card" data-category="responsive">
+                    <div class="card-image">
+                        <img src="Images/Foody Restaurant Website Design UI.jpeg" alt="Restaurant Website">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="project-category">Responsive Design</div>
+                        <h3>Restaurant Website</h3>
+                        <p>A fully responsive restaurant website with menu showcase, contact form, and mobile-first design approach.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Grid</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-card" data-category="javascript">
+                    <div class="card-image">
+                        <img src="Images/download.jpeg" alt="Weather App">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="project-category">JavaScript</div>
+                        <h3>Weather Dashboard</h3>
+                        <p>A weather application that fetches real-time weather data and displays it with a clean, intuitive interface.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-card" data-category="html-css">
+                    <div class="card-image">
+                        <img src="Images/Art Gallery App.jpeg" alt="CSS Art Gallery">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="project-category">HTML & CSS</div>
+                        <h3>CSS Art Gallery</h3>
+                        <p>A creative showcase of CSS art and animations, demonstrating advanced CSS techniques and creativity.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Animations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern HTML structure</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Responsive design, animations, and modern layouts</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive functionality and DOM manipulation</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first approach and cross-device compatibility</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="90"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">Have a project in mind? Let's discuss how we can bring it to life!</p>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <div class="success-message" id="success-message">
+                        <i class="fas fa-check-circle"></i>
+                        Thank you for your message! I'll get back to you soon.
+                    </div>
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Your Name</label>
+                                <div class="error-message">Please enter your name</div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Your Email</label>
+                                <div class="error-message">Please enter a valid email</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <div class="error-message">Please enter a subject</div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="error-message">Please enter your message</div>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>katiegold909@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <p>+234 814 606 3825</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Location</h4>
+                        <p>Lagos, Nigeria</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/tolulope" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/tolulope" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/tolulope" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/tolulope" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Tolulope</h3>
+                    <p>Frontend Developer & Designer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home"><i class="fas fa-home"></i> Home</a>
+                    <a href="#about"><i class="fas fa-user"></i> About</a>
+                    <a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a>
+                    <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+                    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/tolulope" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/tolulope" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/tolulope" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/tolulope" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tolulope. Crafted with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
